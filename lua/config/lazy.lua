@@ -38,6 +38,10 @@ require("lazy").setup({
             branch = "harpoon2",
             dependencies = { "nvim-lua/plenary.nvim" }
         },
+        {'VonHeikemen/lsp-zero.nvim', branch = 'v4.x'},
+        {'neovim/nvim-lspconfig'},
+        {'hrsh7th/cmp-nvim-lsp'},
+        {'hrsh7th/nvim-cmp'},
 	},
 	-- Configure any other settings here. See the documentation for more details.
 	-- colorscheme that will be used when installing plugins.
