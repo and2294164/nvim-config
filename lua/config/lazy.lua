@@ -42,10 +42,11 @@ require("lazy").setup({
         {'neovim/nvim-lspconfig'},
         {'hrsh7th/cmp-nvim-lsp'},
         {'hrsh7th/nvim-cmp'},
+        {'rebelot/kanagawa.nvim'},
 	},
 	-- Configure any other settings here. See the documentation for more details.
 	-- colorscheme that will be used when installing plugins.
-	install = { colorscheme = { "rose-pine" } },
+	install = { colorscheme = { "kanagawa" } },
 	-- automatically check for plugin updates
 	checker = { enabled = true },
 })
